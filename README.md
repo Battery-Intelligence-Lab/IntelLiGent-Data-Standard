@@ -13,7 +13,7 @@ A conventional data pipeline for experimental electrochemical testing is present
 
 ![Alt text](./assets/Data_Structure.svg)
 
-In the above figure, the blue containers denote the finalised structure for sharing data between partners. The hatched "Parquet" container offers a potential improvement over the "CSV" container in regards to storage size and access speed; however, reduced human readability. 
+In the above figure, the blue containers denote the finalised structure for sharing data between partners. The hatched "Parquet" container offers a potential improvement over the "CSV" container in regards to storage size and access speed; however, reduced human readability. Conversion from CSV to the Parquet file format can be achieved using the conversion scripts available in our [file-format-conversion](https://github.com/Battery-Intelligence-Lab/file-format-conversion) repository.
 
 # Data Storage
 
