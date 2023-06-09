@@ -25,3 +25,8 @@ Tools to generate the unique identifier include,
 - [Short Unique](https://shortunique.id/)
 - [Short-UUID](https://www.npmjs.com/package/short-uuid) (Javascript)
 - [ShortUUID](https://pypi.org/project/shortuuid/) (Python)
+
+# Acknowledgements
+
+This repository was first created at the University of Oxford in 2023 with funding support from the Faraday Institution Multi-Scale Modelling Project (grant number FIRG059) and the EU IntelLiGent Project.
+
