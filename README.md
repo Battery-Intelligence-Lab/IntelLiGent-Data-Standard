@@ -17,9 +17,11 @@ In the above figure, the blue containers denote the finalised structure for shar
 
 # Data Storage
 
-The directory structure for storing the metadata (JSON) and data (CSV) defined in the above figure is presented below. This structure utilises UUIDs to differentiate items while enabling future knowledge tree integration. By incorporating a UUID into the individual test directory, the encompassing data files don't need to have unique identifiers; however, we recommend these are labeled for human understanding. An example is shown in the figure below for both temperature and state-of-charge-specific containers. The definition of these experiments would be included in the corresponding JSON file.
+The directory structure for storing the metadata (JSON) and data (CSV) defined in the above figure is presented in the figure below. The definition of each experiment would be included in the corresponding JSON file. An example [minimal JSON file](https://github.com/Battery-Intelligence-Lab/IntelLiGent-Data-Standard/blob/main/example/2023-04-10_Oxford_drF73t.json) is included in this repository to show how the structured format makes it easy to find and retrieve information.
 
 ![Alt text](./assets/Directory.svg)
+
+This structure utilises UUIDs to differentiate items while enabling future knowledge tree integration. By incorporating a UUID into the individual test directory, the encompassing data files don't need to have unique identifiers; however, we recommend these are labeled for human understanding.
 
 Tools to generate the unique identifier include,
 - [Short Unique](https://shortunique.id/)
