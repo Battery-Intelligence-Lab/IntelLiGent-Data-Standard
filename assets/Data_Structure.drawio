@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-06-09T14:11:33.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="dLoqix2qJb-zhhkVDSHR" version="21.3.7" type="device">
+<mxfile host="Electron" modified="2023-06-13T12:25:03.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="xNd1MJ8Tbe9mZjPGvhOa" version="21.3.7" type="device">
   <diagram name="Page-1" id="TEoT009e3m1u3qDUiBox">
-    <mxGraphModel dx="863" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,18 +19,21 @@
         <mxCell id="9MjjmHNh4XLL2jcoOhp--1" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;CSV File&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(Time, cycle number, step number, current, voltage, temperature, etc.)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="46" y="310" width="158" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="9MjjmHNh4XLL2jcoOhp--2" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;List of Cell Properties&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(Cell ID, electrode size, mass loading, theor. capacities, # of layers, etc. )&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="9MjjmHNh4XLL2jcoOhp--2" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;List of Cell Properties&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(Cell ID, electrode size, mass loading, theor. capacities, # of layers, etc.)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="240" y="310" width="161" height="79" as="geometry" />
         </mxCell>
         <mxCell id="9MjjmHNh4XLL2jcoOhp--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontColor=#000000;strokeColor=#002147;" parent="1" source="9MjjmHNh4XLL2jcoOhp--3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="516" y="430" as="targetPoint" />
+            <mxPoint x="420" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="430" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9MjjmHNh4XLL2jcoOhp--3" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;Test Protocols&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(Overview/aims, explanation of cycle and step numbers, control setpoints, etc.)&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="437" y="310" width="158" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="9MjjmHNh4XLL2jcoOhp--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontColor=#000000;strokeColor=#002147;" parent="1" source="9MjjmHNh4XLL2jcoOhp--4" edge="1">
+        <mxCell id="9MjjmHNh4XLL2jcoOhp--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontColor=#000000;strokeColor=#002147;dashed=1;" parent="1" source="9MjjmHNh4XLL2jcoOhp--4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="430" as="targetPoint" />
             <Array as="points">
@@ -41,7 +44,7 @@
         <mxCell id="9MjjmHNh4XLL2jcoOhp--4" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;Material Properties&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(Particle distibution, Si content, electrolyte composition, transport parameters, etc.)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="633" y="310" width="158" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="9MjjmHNh4XLL2jcoOhp--5" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;JSON-LD&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(File containing machine and human-readable information)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="9MjjmHNh4XLL2jcoOhp--5" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;JSON-LD Metadata&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(File containing machine and human-readable information)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="340" y="470" width="158" height="79" as="geometry" />
         </mxCell>
         <mxCell id="9MjjmHNh4XLL2jcoOhp--16" value="&lt;u&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;Cycler Data&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
@@ -64,7 +67,7 @@
         <mxCell id="9MjjmHNh4XLL2jcoOhp--20" value="&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;Parquet Container&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(Compressed cycler data)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=hatch;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="46" y="470" width="158" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="VMRn8pNpVm9z5YRv-981-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#002147;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9MjjmHNh4XLL2jcoOhp--2" edge="1" target="9MjjmHNh4XLL2jcoOhp--5">
+        <mxCell id="VMRn8pNpVm9z5YRv-981-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#002147;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9MjjmHNh4XLL2jcoOhp--2" target="9MjjmHNh4XLL2jcoOhp--5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="430" as="targetPoint" />
             <mxPoint x="526" y="399" as="sourcePoint" />
@@ -72,6 +75,15 @@
               <mxPoint x="320" y="430" />
               <mxPoint x="419" y="430" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gnsWsE8YyaA2BrMivZ8t-1" value="&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;BattINFO or BPX File&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot;&gt;(A set of battery model parameters)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="470" width="158" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="gnsWsE8YyaA2BrMivZ8t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="9MjjmHNh4XLL2jcoOhp--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="399" as="targetPoint" />
+            <mxPoint x="712" y="470" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
