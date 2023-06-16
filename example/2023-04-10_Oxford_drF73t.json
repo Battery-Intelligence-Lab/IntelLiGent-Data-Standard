@@ -1,6 +1,42 @@
 {
-    "@context": "drF73t",
-    "@type": "Battery Data",
-    "name": "Repo-Example",
-    "url": "https://github.com/Battery-Intelligence-Lab/IntelLiGent-Data-Standard"
+    "@context": {
+      "Discharge Capacity": "https....",
+      "Charge Capacity": "https...",
+      "Voltage": "https...",
+      "Current": "https...",
+      "Temperature": "https...",
+      "Datasheet": "https...",
+      "@type": "Electrochemical Cell",
+      "...": "..."
+    },
+
+    "Cell":{
+      "Datasheet": "https...",
+      "Manufacturer": "",
+      "Model": "",
+      "Mass": "",
+      "Form Factor": "",
+      "Rated Capacity": "",
+      "Negative Electrode": {
+          "Composition": "",
+          "Thickness": "",
+          "Coated Area": ""
+      },
+      "Positive Electrode": {
+          "Composition": "",
+          "Thickness": "",
+          "Coated Area": ""
+      }
+    },
+    "Experiment": {
+      "Definition": "Constant-Current Discharge",
+      "Test Note": "This test applies constant current until Vmin is achieved",
+      "Ambient Temperature": "298.15",
+      "File": "/my_cc_cycling",
+      "FileType": "csv",
+      "VoltageColumn": "1",
+      "CurrentColumn": "2",
+      "TemperatureColumn": "3",
+      "TimeColumn": "4"
+    }
   }
